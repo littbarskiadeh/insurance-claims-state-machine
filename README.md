@@ -41,23 +41,33 @@ Investigating officer: {
 
 ## Transitions
 
-a. fileReport([policy_no,... claims report details])
-b. submitClaim(claim_id)
-c. approveClaim(claim id, amount)
-d. requestReview(claim id)
+* fileReport([policy_no,... claims report details])
+
+* submitClaim(claim_id)
+
+* approveClaim(claim id, amount)
+
+* requestReview(claim id)
 
 ## Functions & Roles 
 
-fileReport([... claims report details]) - Insured/Claimant
-submitClaim(claim_id) - Broker/Agent/Insurance Company
+* fileReport([... claims report details]) - Insured/Claimant
 
-requestPOLForm(claim_id, policy_no) - claims adjuster
-determineClaimAmount (claim_id, ...incident details) - Claims Adjuster
-approveClaimAmount(claim_id, amount) - claims adjuster
-requestReview(claim_id) - Insured/Claimant
-checkClaimStatus(claim_id) -- Insured/Claimant/Broker/Agent/Insurance Company
+* submitClaim(claim_id) - Broker/Agent/Insurance Company
+
+* requestPOLForm(claim_id, policy_no) - claims adjuster
+
+* determineClaimAmount (claim_id, ...incident details) - Claims Adjuster
+
+* approveClaimAmount(claim_id, amount) - claims adjuster
+
+* requestReview(claim_id) - Insured/Claimant
+
+* checkClaimStatus(claim_id) -- Insured/Claimant/Broker/Agent/Insurance Company
 
 Keys:
-a. [Insured/Claimant] is the person filing the claim
-b. [Broker/Agent/Insurance Company] broker or agent or insurance company of the claimant
+
+- [Insured/Claimant] is the person filing the claim
+
+- [Broker/Agent/Insurance Company] broker or agent or insurance company of the claimant
 

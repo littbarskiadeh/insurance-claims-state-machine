@@ -1,0 +1,19 @@
+{
+  "name": "insurance-claim",
+  "version": "1.0.0",
+  "description": "![State diagram](https://github.com/littbarskiadeh/insurance-claims-state-machine/blob/main/assets/state_diagram.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littbarskiadeh/insurance-claims-state-machine.git"
+  },
+  "author": "littbarski adeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/littbarskiadeh/insurance-claims-state-machine/issues"
+  },
+  "homepage": "https://github.com/littbarskiadeh/insurance-claims-state-machine#readme"
+}

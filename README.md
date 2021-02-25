@@ -1,5 +1,6 @@
 ### State Diagram
 
+![State diagram](https://github.com/littbarskiadeh/insurance-claims-state-machine/blob/main/state_diagram.png)
 
 ## State - claims report details
 
